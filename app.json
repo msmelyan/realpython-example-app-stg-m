@@ -1,0 +1,12 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python -m pip install -r requirements.txt",
+        "test": "pytest"
+      }
+    }
+  },
+  "environments-directory": "tests"
+}
+
